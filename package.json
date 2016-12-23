@@ -1,6 +1,6 @@
 {
   "name": "default-options",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Assigns default values to an object along with validating for required and unknown property keys.",
   "repository": "https://github.com/globetro/default-options.git",
   "main": "index.js",
