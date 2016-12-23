@@ -2,7 +2,13 @@
 Assigns default values to an object along with validating for required and unknown property keys.
 
 ## Usage
-`dopts(options, defaults, [doptsOptions]);`
+`npm i default-options --save`
+
+```javascript
+var dopts = require('default-options');
+
+dopts(options, defaults, [doptsOptions]);
+```
 
 * `options` - The user specified options object
 * `defaults` - An object of defaults for values not specified in `options`. If a default property value is set specifically to `undefined`, it will be treated as a required property.
