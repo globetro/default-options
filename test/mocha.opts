@@ -1,0 +1,4 @@
+--require test/init.js
+--recursive
+--reporter spec
+--ui bdd

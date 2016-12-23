@@ -1,0 +1,37 @@
+{
+  "name": "default-options",
+  "version": "0.0.0",
+  "description": "Assigns default values to an object along with validating for required and unknown property keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "test-watch": "mocha test --watch",
+    "release": "node_modules/.bin/npm-release"
+  },
+  "keywords": [
+    "options",
+    "validate",
+    "options",
+    "valid",
+    "options",
+    "required",
+    "options",
+    "optional",
+    "options",
+    "opts",
+    "defaults",
+    "default"
+  ],
+  "author": "Warren <warreno@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "npm-release": "^1.0.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  }
+}
